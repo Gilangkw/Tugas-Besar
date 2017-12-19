@@ -152,7 +152,7 @@ public class view extends javax.swing.JFrame {
 
         getContentPane().add(bayangan, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 470));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\yustitia arofa\\Pictures\\png\\1.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/1.jpg"))); // NOI18N
         jLabel2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
                 jLabel2MouseDragged(evt);
@@ -160,7 +160,7 @@ public class view extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 350, 470));
 
-        setSize(new java.awt.Dimension(349, 468));
+        setSize(new java.awt.Dimension(351, 431));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
